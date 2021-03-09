@@ -4,11 +4,11 @@ Writes either cubic or Al<sub>2</sub>Cu lattices to either an [xyz file](https:/
  or a [lammps data file](https://lammps.sandia.gov/doc/read_data.html#format-of-a-data-file).
 
 Command line arguments:
--o: The format of the output, 'xyz' or 'lammps', default is 'xyz'
--s: The integer number of unit cells in each axis, default is 5
--d: The number density of the lattice, default = 1
--t: The lattice type, 'cubic' or 'al2cu', default is"al2cu"
--r: Ratio of A to B particles. This argument is ignored for Al2Cu lattices, default = 4
+- -o: The format of the output, 'xyz' or 'lammps', default is 'xyz'
+- -s: The integer number of unit cells in each axis, default is 5-
+- -d: The number density of the lattice, default = 1
+- -t: The lattice type, 'cubic' or 'al2cu', default is"al2cu"
+- -r: Ratio of A to B particles. This argument is ignored for Al2Cu lattices, default = 4
 
 ## Citation
 
