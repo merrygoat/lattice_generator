@@ -1,0 +1,1 @@
+# Generate crystal lattices in LAMMPS or XYZ format
